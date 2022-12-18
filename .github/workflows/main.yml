@@ -56,7 +56,7 @@ jobs:
 
 
   package:
-    needs: [unit-test]
+    needs: [instrumentation-test]
     name: Generate APK
     runs-on: ubuntu-latest
     steps:
